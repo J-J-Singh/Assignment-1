@@ -1,0 +1,6 @@
+a= int(input("Gross Income: $"))
+b= int(input("Number of dependents:"))
+c= a-10000-(3000*b)
+d= int(c/5)
+if d<0: print(0)
+else:print("Tax = $",d)
